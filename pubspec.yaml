@@ -1,0 +1,68 @@
+name: pokedex
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  animations: 2.0.1
+  auto_route: 4.0.0
+  bloc: ^8.1.0
+  collection: ^1.15.0
+  dartx: ^1.1.0
+  dio: ^4.0.6
+  dio_cache_interceptor: ^3.3.1
+  fimber: ^0.6.6
+  flutter_bloc: ^8.1.1
+  flutter_share: ^2.0.0
+  flutter_svg: ^1.0.3
+  freezed_annotation: ^1.1.0
+  get_it: ^7.2.0
+  injectable: ^1.5.3
+  intl: ^0.17.0
+  json_annotation: ^4.6.0
+  open_file: ^3.2.1
+  path: ^1.8.0
+  path_provider: ^2.0.11
+  pdf: ^3.8.3
+  pretty_dio_logger: ^1.1.1
+  retrofit: ^3.0.1+1
+  shimmer: ^2.0.0
+  screenshot: ^1.2.3
+  whatsapp_share2: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  auto_route_generator: 4.0.0
+  build_runner: ^2.1.11
+  flutter_gen_runner: ^4.2.1+1
+  flutter_lints: ^1.0.4
+  freezed: ^1.1.0
+  injectable_generator: ^1.5.2
+  json_serializable: ^6.3.1
+  retrofit_generator: ^4.0.3+2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
+        - asset: assets/fonts/Poppins-Italic.ttf
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
